@@ -1,0 +1,22 @@
+{
+	"author": "Clark Ngo",
+	"description": "A project for freeCodeCamp",
+	"keywords": ["freecodecamp", "project", "apis", "json"],
+	"license": "MIT",
+	"version": "1.0",
+	"name": "fcc-learn-node-with-express",
+	"dependencies": {
+		"express": "^4.14.0",
+		"body-parser": "^1.15.2",
+		"cookie-parser": "^1.4.3",
+		"fcc-express-bground": "https://github.com/Em-Ant/fcc-express-bground-pkg.git",
+    "moment": "^2.10.2"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"engines": {
+		"node": "4.4.5"
+	}
+}
